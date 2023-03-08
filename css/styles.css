@@ -6,6 +6,8 @@ body{
 :root { --add-color:#4d5ae5}
 :root {--main-color:#2e2f42}
 :root{--link-color:#434455}
+:root{--background-color:#2e2f42}
+
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -51,5 +53,12 @@ font-weight: 500;
     line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;}
-         .adress-link:hover,:focus{color: #404bbf}
+         .adress-link:hover :focus{color: #404bbf}
      .adress-link{color: var(--link-color);}
+
+     /* SECTION ONE */
+         .solutions {}
+    
+         .solutions-title {}
+    
+         .solutions-btn {}
