@@ -53,7 +53,10 @@ font-weight: 500;
     line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;}
-         .adress-link:hover :focus{color: #404bbf}
+
+     .adress-link:hover{color: #404bbf}
+     .adress-link:focus{color: #404bbf}
+         
      .adress-link{color: var(--link-color);}
 
      /* SECTION ONE */
