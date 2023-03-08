@@ -3,9 +3,9 @@ body{
     color: #434455;
 
 }
-
+:root { --add-color:#4d5ae5}
 .logo{
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -14,6 +14,7 @@ body{
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: var(--add-color);
 }
 
 .link{ text-decoration: none}
