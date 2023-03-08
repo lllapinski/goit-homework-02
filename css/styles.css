@@ -5,6 +5,7 @@ body{
 }
 :root { --add-color:#4d5ae5}
 :root {--main-color:#2e2f42}
+:root{--link-color:#434455}
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -37,6 +38,7 @@ font-weight: 500;
     line-height: 1.5;
      letter-spacing: 0.02em;
  color: #2E2F42;}
+ .links-nav:hover{color:#404bbf}
 
 .adress {font-style: normal}
 .adress-list{
@@ -50,3 +52,4 @@ font-weight: 500;
      letter-spacing: 0.02em;
      color: #434455;}
      .adress-item:hover,:focus{color: #404bbf}
+     .adress-link{color: var(--link-color);}
