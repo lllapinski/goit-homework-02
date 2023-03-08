@@ -3,3 +3,25 @@ body{
     color: #434455;
 
 }
+
+.header {}
+
+.header-nav {}
+
+.header-list-nav {}
+
+.header-list-item {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+
+.adress {}
+
+.list-adress {}
+
+.adress-item {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;}
