@@ -19,7 +19,7 @@ body{
         color: var(--add-color);
 }
 .studio-span{color: var(--main-color);}
-
+.list{list-style: none}
 .link{ text-decoration: none}
 .header {}
 
