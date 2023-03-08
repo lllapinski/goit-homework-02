@@ -40,7 +40,7 @@ font-weight: 500;
 
 .adress {font-style: normal}
 .adress-list{
-    
+
 }
 .list-adress {}
 
@@ -49,3 +49,4 @@ font-weight: 500;
     line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;}
+     .adress-item:hover,:focus{color: #404bbf}
