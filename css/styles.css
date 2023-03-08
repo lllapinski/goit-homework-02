@@ -169,7 +169,7 @@ color: #2E2F42;}
   /* SECTION */
   .list {}
 
-  .btn {font-family: 'Roboto';
+  .btn {font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -180,3 +180,22 @@ color: #2E2F42;}
     letter-spacing: 0.04em;
     cursor: pointer;
  color:var(--add-color);}
+
+ /* section img */
+ .images {}
+
+ .images-list {}
+
+ .images-img {}
+
+ .images-title {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+ color: #2E2F42;}
+
+ .images-text {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+ color: #434455;}
