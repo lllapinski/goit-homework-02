@@ -151,7 +151,7 @@ color: #2E2F42;}
     letter-spacing: 0.02em;
  color: #434455;}
  /* FOOTER */
- .footer {}
+ .footer {background-color: var(--background-color);}
 
  .fotter-link {}
 
@@ -161,3 +161,4 @@ color: #2E2F42;}
    
     letter-spacing: 0.02em;
   color: #F4F4FD;}
+  .sspan{color: #f4f4fd}
