@@ -167,7 +167,7 @@ color: #2E2F42;}
 
   /* portfolio */
   /* SECTION */
-  .list {}
+  .list {list-style: none}
 
   .btn {font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -199,3 +199,4 @@ color: #2E2F42;}
     line-height: 1.5;
     letter-spacing: 0.02em;
  color: #434455;}
+ .link{text-decoration: none}
