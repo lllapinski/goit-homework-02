@@ -27,7 +27,7 @@ body{
 
 .header-list-nav {}
 
-.header-list-nav:hover{color: #404bbf}
+.header-list-nav:hover :focus{color:#404bbf}
 
 
 
