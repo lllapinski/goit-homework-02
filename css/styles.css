@@ -38,8 +38,10 @@ font-weight: 500;
      letter-spacing: 0.02em;
  color: #2E2F42;}
 
-.adress {}
-
+.adress {font-style: normal}
+.adress-list{
+    
+}
 .list-adress {}
 
 .adress-item {font-weight: 400;
