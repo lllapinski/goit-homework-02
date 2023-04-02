@@ -191,6 +191,7 @@ body {
 
 /*  SECTION FOUR*/
 .team {
+   background-color: var(--cloud-color);
 }
 
 .team-main-title {
@@ -208,6 +209,7 @@ body {
 }
 
 .team-list-item {
+   background-color: var(--white-color;)
 }
 
 .team-img {
