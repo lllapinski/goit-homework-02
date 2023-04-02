@@ -3,14 +3,14 @@
   --main-color: #2e2f42;
   --link-color: #434455;
   --hover-color: #404bbf;
-  --cloud-color:  #F4F4FD;
-  --white-color: #FFFFFF;
+  --cloud-color: #f4f4fd;
+  --white-color: #ffffff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--link-color);
-  background-color:var(--white-color);
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -191,7 +191,7 @@ body {
 
 /*  SECTION FOUR*/
 .team {
-   background-color: var(--cloud-color);
+  background-color: var(--cloud-color);
 }
 
 .team-main-title {
@@ -209,7 +209,6 @@ body {
 }
 
 .team-list-item {
-   background-color: var(--white-color;)
 }
 
 .team-img {
@@ -270,14 +269,14 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background: var(--add-color);
-  color: var(--white-color);
+  background: var(--cloud-color);
+  color: var(--add-color);
 }
 .btn:hover,
 .btn:focus {
   background-color: var(--hover-color);
   color: #fff;
-
+}
 /* section img */
 .images {
 }
