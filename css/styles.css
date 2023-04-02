@@ -3,6 +3,7 @@
   --main-color: #2e2f42;
   --link-color: #434455;
   --hover-color: #404bbf;
+  --cloud-color:  #F4F4FD;
 }
 
 body {
@@ -198,6 +199,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-color);
+  background-color: var(--cloud-color);
 }
 
 .team-list {
@@ -229,7 +231,7 @@ body {
 }
 /* FOOTER */
 .footer {
-  background-color: var(--background-color);
+  background-color: var(--main-color);
 }
 
 .fotter-link {
@@ -264,8 +266,13 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--add-color);
+  background: var(--add-color);
+  color: #ffffff;
 }
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-color);
+  color: #fff;
 
 /* section img */
 .images {
