@@ -1,202 +1,292 @@
-body{
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-
+:root {
+  --add-color: #4d5ae5;
+  --main-color: #2e2f42;
+  --link-color: #434455;
+  --hover-color: #404bbf;
 }
-:root { --add-color:#4d5ae5}
-:root {--main-color:#2e2f42}
-:root{--link-color:#434455}
-:root{--background-color:#2e2f42}
 
-
-.logo{
-    font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--add-color);
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--link-color);
 }
-.studio-span{color: var(--main-color);}
-.list{list-style: none}
-.link{ text-decoration: none}
-.header {}
 
-.header-nav {}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--add-color);
+}
+/*  */
 
-.header-list-nav {}
+.header {
+  
+.header-nav {
+}
 
-.hov:hover :focus{color:#404bbf}
+.header-list-item {
+}
+.header-list-nav {
+  /* display: flex;
+  margin-left: 76px;
+  gap: 40px; */
+}
+.adress {
+  color: var(--link-color);
+}
+/*  */
+.studio-span {
+  color: var(--main-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 
-
+.hov:hover :focus {
+  color: #404bbf;
+}
 
 .links-nav {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-     letter-spacing: 0.02em;
- color: #2E2F42;}
- .links-nav:hover{color:#404bbf}
- .links-nav:focus{color: #404bbf}
-
-.adress {font-style: normal}
-.adress-list{
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
-.list-adress {}
+.links-nav:hover {
+  color: #404bbf;
+}
+.links-nav:focus {
+  color: #404bbf;
+}
 
-.adress-item {font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #434455;}
+.adress {
+  font-style: normal;
+}
+.adress-list {
+}
+.list-adress {
+}
 
-     .adress-link:hover{color: #404bbf}
-     .adress-link:focus{color: #404bbf}
-         
-     .adress-link{color: var(--link-color);}
+.adress-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: ;
+}
 
-     /* SECTION ONE */
-         .solutions {background-color: var(--background-color);}
-    
-         .solutions-title {font-weight: 700;
-            font-size: 56px;
-            line-height: 1.07;text-align: center;
-            letter-spacing: 0.02em;color: #FFFFFF;}
-    
-         .solutions-btn {font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5; display: flex;
-            align-items: center;
-            letter-spacing: 0.04em;
-            cursor: pointer;
-             color: #FFFFFF;}
+.adress-link:hover {
+  color: #404bbf;
+}
+.adress-link:focus {
+  color: #404bbf;
+}
+
+.adress-link {
+  color: var(--link-color);
+}
+
+/* SECTION ONE */
+.solutions {
+  background-color: var(--background-color);
+}
+
+.solutions-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.solutions-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background: var(--add-color);
+  color: #ffffff;
+}
+.solutions-btn:hover,
+.solutions-btn:focus {
+  background-color: var(--hover-color);
+}
 
 /* SECTION TWO */
 
-.advantages-main-title {}
-            
-.hidden {}
-            
-.advantages-list {}
-            
-.list {}
-            
-.advantages-list-item {}
-            
-.advantages-title {font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-     letter-spacing: 0.02em;
-    color: #2E2F42;}
-            
- .advantages-text {font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-     letter-spacing: 0.02em;
-    color: #434455;}
+.advantages-main-title {
+}
 
-    /* SECTION THREE */
-    .tasks-title{
-        font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11;
-           text-align: center;
-            letter-spacing: 0.02em;
-            text-transform: capitalize;
-         color: #2E2F42;
-    }
-        .tasks {}
-    
-        .tasks-list {}
-    
-        .tasks-list-item {}
-    
-        .tasks-img {}
+.hidden {
+}
 
-        /*  SECTION FOUR*/
-   .team {}
+.advantages-list {
+}
 
-   .team-main-title {font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-color: #2E2F42;}
+.list {
+}
 
-   .team-list {}
+.advantages-list-item {
+}
 
-   .team-list-item {}
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
 
-   .team-img {}
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
 
-   .team-item {font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-   
-    text-align: center;
-    letter-spacing: 0.02em;
- color: #2E2F42;}
+/* SECTION THREE */
+.tasks-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+.tasks {
+}
 
-   .team-text {font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.02em;
- color: #434455;}
- /* FOOTER */
- .footer {background-color: var(--background-color);}
+.tasks-list {
+}
 
- .fotter-link {}
+.tasks-list-item {
+}
 
- .fotter-text {font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-   
-    letter-spacing: 0.02em;
-  color: #F4F4FD;}
-  .sspan{color: #f4f4fd}
+.tasks-img {
+}
 
+/*  SECTION FOUR*/
+.team {
+}
 
+.team-main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
 
-  /* portfolio */
-  /* SECTION */
-  .list {list-style: none}
+.team-list {
+}
 
-  .btn {font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-   display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    cursor: pointer;
- color:var(--add-color);}
+.team-list-item {
+}
 
- /* section img */
- .images {}
+.team-img {
+}
 
- .images-list {}
+.team-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 
- .images-img {}
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
 
- .images-title {font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
- color: #2E2F42;}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+/* FOOTER */
+.footer {
+  background-color: var(--background-color);
+}
 
- .images-text {font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
- color: #434455;}
- .link{text-decoration: none}
+.fotter-link {
+}
+
+.fotter-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.sspan {
+  color: #f4f4fd;
+}
+
+/* portfolio */
+/* SECTION */
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--add-color);
+}
+
+/* section img */
+.images {
+}
+
+.images-list {
+}
+
+.images-img {
+}
+
+.images-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.images-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+.link {
+  text-decoration: none;
+}
