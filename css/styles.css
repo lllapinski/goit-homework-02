@@ -4,11 +4,13 @@
   --link-color: #434455;
   --hover-color: #404bbf;
   --cloud-color:  #F4F4FD;
+  --white-color: #FFFFFF;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--link-color);
+  background-color:var(--white-color);
 }
 
 .logo {
@@ -111,7 +113,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--main-color);
 }
 
@@ -125,7 +127,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   background: var(--add-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 .solutions-btn:hover,
 .solutions-btn:focus {
@@ -267,7 +269,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   background: var(--add-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 .btn:hover,
 .btn:focus {
