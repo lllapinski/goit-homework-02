@@ -25,7 +25,8 @@ body {
 /*  */
 
 .header {
-  
+}
+
 .header-nav {
 }
 
@@ -97,16 +98,20 @@ body {
 
 /* SECTION ONE */
 .solutions {
-  background-color: var(--background-color);
+  background-color: var(--main-color);
 }
 
 .solutions-title {
   font-weight: 700;
+  height: 120px;
+  width: 496px;
+  margin: 0 auto;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  background-color: var(--main-color);
 }
 
 .solutions-btn {
