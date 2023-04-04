@@ -5,6 +5,7 @@
   --hover-color: #404bbf;
   --cloud-color: #f4f4fd;
   --white-color: #ffffff;
+  --border-color: #e7e9fc;
 }
 
 body {
@@ -15,7 +16,6 @@ body {
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -55,7 +55,7 @@ body {
 }
 
 .hov:hover :focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .links-nav {
@@ -66,10 +66,10 @@ body {
   color: var(--main-color);
 }
 .links-nav:hover {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 .links-nav:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .adress {
@@ -89,10 +89,10 @@ body {
 }
 
 .adress-link:hover {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 .adress-link:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .adress-link {
@@ -209,7 +209,7 @@ body {
 }
 
 .team-list-item {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .team-img {
@@ -247,10 +247,10 @@ body {
   line-height: 1.5;
 
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cloud-color);
 }
 .sspan {
-  color: #f4f4fd;
+  color: var(--cloud-color);
 }
 
 /* portfolio */
@@ -261,7 +261,6 @@ body {
 
 .btn {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -272,12 +271,12 @@ body {
   cursor: pointer;
   background: var(--cloud-color);
   color: var(--add-color);
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
 }
 .btn:hover,
 .btn:focus {
   background-color: var(--hover-color);
-  color: #fff;
+  color: var(--white-color);
 }
 /* section img */
 .images {
